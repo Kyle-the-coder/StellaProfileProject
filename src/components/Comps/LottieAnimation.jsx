@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
-import lottieFile from "../assets/lottieFile.json";
+import lottieFile from "../../assets/lottieAnimation.json";
 
 function LottieAnimation({ isHamburgerActive, isAnimationActive }) {
   const containerRef = useRef(null);

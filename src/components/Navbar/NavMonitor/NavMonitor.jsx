@@ -1,9 +1,28 @@
+import logo from "../../../assets/SparkTechLogo.png";
 import "./navmonitor.css";
 
 export function NavMonitor() {
+  const links = [
+    { linkName: "About Us" },
+    { linkName: "Product" },
+    { linkName: "Services" },
+    { linkName: "Locations" },
+    { linkName: "Contact Us" },
+  ];
   return (
     <div className="nm-main-container">
-      <h1>nav monitor</h1>
+      <div className="nm-logo-container">
+        <img src={logo} className="nm-logo" />
+      </div>
+      <div className="nm-link-container">
+        {links.map((link, index) => {
+          return (
+            <h3 className="nm-link" key={link.linkName}>
+              {link.linkName}
+            </h3>
+          );
+        })}
+      </div>
     </div>
   );
 }

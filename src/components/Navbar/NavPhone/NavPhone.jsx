@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import LottieAnimation from "../../../assets/lottieAnimation.json";
+import LottieAnimation from "../../Comps/LottieAnimation";
 import gsap from "gsap";
 import logo from "../../../assets/SparkTechLogo.png";
 import "./navphone.css";
@@ -67,22 +67,21 @@ export function NavPhone() {
   }, [isHamburgerActive]);
 
   const links = [
-    { linkName: "About Us", link: "/aboutUs" },
-    { linkName: "Product" },
-    { linkName: "Services" },
-    { linkName: "Locations" },
-    { linkName: "Contact Us" },
+    { linkName: "Home", link: "/aboutUs" },
+    { linkName: "About Me" },
+    { linkName: "My Work" },
+    { linkName: "My Message" },
+    { linkName: "Contact Me" },
   ];
-
   return (
-    <div className="np-main-container m-0 green-bg">
-      {" "}
+    <div className="np-main-container green-bg">
       <img
         src={logo}
-        width="200"
+        width="100"
         className="navbar-logo"
         onClick={() => handleHomeNavigate()}
       />
+
       <div
         className="navbar-phone-hamburger"
         onClick={() => handleActivateHamburger()}
@@ -92,6 +91,7 @@ export function NavPhone() {
           isAnimationActive={isAnimationActive}
         />
       </div>
+
       {isHamburgerActive && (
         <div className="navbar-phone-dropdown-main-container">
           {links.map((link, index) => {
