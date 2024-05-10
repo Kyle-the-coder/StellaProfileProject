@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+.main-container,
+.navbar-main-container {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mont";
+  src: url("./Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Play";
+  src: url("./PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.mont {
+  font-family: "Mont", sans-serif;
+}
+.play {
+  font-family: "Play", sans-serif;
+}
+
+.blue-bg {
+  background-color: #78c0e0;
+  width: 100%;
+  height: 100%;
+}
+
+.green-bg {
+  background-color: #8bc34a;
+  width: 100%;
+  height: 100%;
+}
+
+.yellow-bg {
+  background-color: #ffd54f;
+  width: 100%;
+  height: 100%;
+}
+.purple-bg {
+  background-color: #6b5b95;
+  width: 100%;
+  height: 100%;
+}
+
+.blue-font {
+  color: #78c0e0;
+}
+
+.green-font {
+  color: #8bc34a;
+}
+
+.yellow-font {
+  color: #ffd54f;
+}
+.purple-font {
+  color: #6b5b95;
+}
+
+.f1-5 {
+  font-size: 1.5rem;
+}
+
+.f1-8 {
+  font-size: 1.8rem;
+}
+
+.f2 {
+  font-size: 2rem;
+}
+.f2-5 {
+  font-size: 2.5rem;
+}
+
+.f3 {
+  font-size: 3rem;
+}
+.f3-5 {
+  font-size: 3.5rem;
+}
+
+.f4 {
+  font-size: 4rem;
+}
+
+.m0 {
+  margin: 0;
+}
