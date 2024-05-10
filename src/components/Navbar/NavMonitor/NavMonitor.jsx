@@ -1,4 +1,4 @@
-import logo from "../../../assets/SparkTechLogo.png";
+import logo from "../../../assets/stellaLogo.png";
 import "./navmonitor.css";
 
 export function NavMonitor() {
@@ -17,7 +17,7 @@ export function NavMonitor() {
       <div className="nm-link-container">
         {links.map((link, index) => {
           return (
-            <h3 className="nm-link" key={link.linkName}>
+            <h3 className="nm-link play f1-5" key={link.linkName}>
               {link.linkName}
             </h3>
           );

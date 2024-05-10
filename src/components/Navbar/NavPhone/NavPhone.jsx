@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import LottieAnimation from "../../Comps/LottieAnimation";
 import gsap from "gsap";
-import logo from "../../../assets/SparkTechLogo.png";
+import logo from "../../../assets/stellaLogo.png";
 import "./navphone.css";
 
 export function NavPhone() {
@@ -74,7 +74,7 @@ export function NavPhone() {
     { linkName: "Contact Me" },
   ];
   return (
-    <div className="np-main-container green-bg">
+    <div className="np-main-container">
       <img
         src={logo}
         width="100"
@@ -98,7 +98,7 @@ export function NavPhone() {
             return (
               <div key={link.linkName}>
                 <h3
-                  className="dropdown-link-name"
+                  className="dropdown-link-name f1-5"
                   onClick={() => handleNavigate(link.link)}
                 >
                   {link.linkName}
