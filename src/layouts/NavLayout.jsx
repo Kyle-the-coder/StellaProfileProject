@@ -1,12 +1,12 @@
 import { Outlet, useNavigation } from "react-router-dom";
-import { NavbarMain } from "../components/Navbars/NavbarMain";
+import { NavMain } from "../components/Navbar/NavMain";
 import "../styles/main.css";
 export function NavLayout() {
   const { state } = useNavigation();
 
   return (
     <div className="main-container">
-      <NavbarMain />
+      <NavMain />
       {state === "loading" ? (
         "loading..."
       ) : (

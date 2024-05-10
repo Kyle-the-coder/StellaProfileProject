@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { NavLayout } from "./layouts/NavLayout";
 import { ErrorLayout } from "./layouts/ErrorLayout";
+import { landingRoute } from "./pages/LandingPage/LandingPageMain";
 
 export const router = createBrowserRouter([
   {
