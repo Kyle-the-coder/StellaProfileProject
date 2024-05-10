@@ -28,7 +28,7 @@ function LottieAnimation({ isHamburgerActive, isAnimationActive }) {
     if (isAnimationActive === false) {
       animRef.current.playSegments([currentFrame, 0], true);
     } else if (isHamburgerActive) {
-      animRef.current.playSegments([0, 43], true);
+      animRef.current.playSegments([0, 88], true);
     }
   }, [isHamburgerActive, isAnimationActive]);
 
