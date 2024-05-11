@@ -1,4 +1,23 @@
 .lpp-main-container {
   width: 100%;
-  height: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.lpp-hero-text {
+  color: whitesmoke;
+  text-shadow: -0.5px 0.5px 10px rgba(255, 255, 255, 0.647);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 14%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  text-align: center;
+  color: white; /* Text color */
 }
