@@ -4,11 +4,11 @@ export function LpMonitor() {
     <div className="lpm-main-container ">
       <section className="lpm-hero-section">
         <div className="lpm-text-container">
-          <h1 className="play lpm-hero-text purple-font m0 f4">
+          <h1 className="play text-height lpm-hero-text purple-font m0 f6">
             <span className="yellow-font">C</span>osmos{" "}
             <span className="purple-font">C</span>reations
           </h1>
-          <p className="lpm-hero-text mont m0  f1-5">
+          <p className="f2 lpm-hero-text mont m0  f1-5">
             <span className="yellow-font">
               Welcome to Stella's World of 3D Wonder
             </span>

@@ -19,6 +19,11 @@
 .lpp-hero-text {
   color: whitesmoke;
   text-shadow: -0.5px 0.5px 10px rgba(255, 255, 255, 0.647);
+  transition: all 0.7s;
+}
+.lpp-hero-text:hover {
+  color: whitesmoke;
+  text-shadow: -0.5px -8px 10px rgba(255, 255, 255, 0.647);
 }
 
 .text-height {
@@ -35,7 +40,7 @@
   position: absolute;
   top: 14%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
-  transform: translate(-50%, -40%); /* Center the text */
+  transform: translate(-51%, -40%); /* Center the text */
   text-align: center;
   color: white; /* Text color */
 }
@@ -49,6 +54,7 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
+  transition: all 0.7s;
   cursor: pointer;
   box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.386),
     0 4px 8px rgba(255, 255, 255, 0.3), 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -56,4 +62,6 @@
 
 .lpp-cta-button:hover {
   color: #ffd54f;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.386),
+    0 -8px 8px rgba(255, 255, 255, 0.3), 0 10px 20px rgba(0, 0, 0, 0.2);
 }
