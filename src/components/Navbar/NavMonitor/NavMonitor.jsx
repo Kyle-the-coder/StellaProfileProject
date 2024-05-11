@@ -3,11 +3,11 @@ import "./navmonitor.css";
 
 export function NavMonitor() {
   const links = [
-    { linkName: "About Us" },
-    { linkName: "Product" },
-    { linkName: "Services" },
-    { linkName: "Locations" },
-    { linkName: "Contact Us" },
+    { linkName: "Home", link: "/aboutUs" },
+    { linkName: "About Me" },
+    { linkName: "My Work" },
+    { linkName: "My Message" },
+    { linkName: "Contact Me" },
   ];
   return (
     <div className="nm-main-container">
