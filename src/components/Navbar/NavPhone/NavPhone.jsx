@@ -19,7 +19,7 @@ export function NavPhone() {
       setIsAnimtionActive(false);
       gsap.to(".navbar-phone-dropdown-main-container", {
         x: "-100%",
-        duration: 1.4,
+        duration: 1.8,
         ease: "power4.in",
         onComplete: () => {
           setIsHamburgerActive(false);
@@ -34,7 +34,7 @@ export function NavPhone() {
       navigate(link);
       gsap.to(".navbar-phone-dropdown-main-container", {
         x: "-100%",
-        duration: 1.4,
+        duration: 1.8,
         ease: "power4.in",
         onComplete: () => {
           setIsHamburgerActive(false);
@@ -48,7 +48,7 @@ export function NavPhone() {
     navigate("/");
     gsap.to(".navbar-phone-dropdown-main-container", {
       x: "-100%",
-      duration: 1.4,
+      duration: 1.8,
       ease: "power4.in",
       onComplete: () => {
         setIsHamburgerActive(false);
@@ -77,7 +77,6 @@ export function NavPhone() {
     <div className="np-main-container">
       <img
         src={logo}
-        width="100"
         className="navbar-logo"
         onClick={() => handleHomeNavigate()}
       />
