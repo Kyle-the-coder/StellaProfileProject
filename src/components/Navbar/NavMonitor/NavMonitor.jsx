@@ -17,7 +17,7 @@ export function NavMonitor() {
       <div className="nm-link-container">
         {links.map((link, index) => {
           return (
-            <h3 className="nm-link play f1-5" key={link.linkName}>
+            <h3 className="nm-link mont f1-5" key={link.linkName}>
               {link.linkName}
             </h3>
           );
