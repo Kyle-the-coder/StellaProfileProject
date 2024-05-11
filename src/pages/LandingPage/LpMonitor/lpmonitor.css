@@ -1,23 +1,26 @@
 .lpm-main-container {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   position: relative;
+}
+
+.lpm-text-container {
+  position: absolute;
+  top: 20%;
+  left: 3%;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+.lpm-spline-container {
+  width: 100%; /* Take up remaining 50% of the width */
+  display: flex;
+  justify-content: center;
 }
 
 .lpp-hero-text {
   color: whitesmoke;
   text-shadow: -0.5px 0.5px 10px rgba(255, 255, 255, 0.647);
-}
-
-.text-overlay {
-  position: absolute;
-  top: 14%; /* Adjust as needed */
-  left: 50%; /* Adjust as needed */
-  transform: translate(-50%, -50%); /* Center the text */
-  text-align: center;
-  color: white; /* Text color */
 }

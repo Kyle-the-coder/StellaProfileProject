@@ -1,9 +1,8 @@
 import "./lpmonitor.css";
 export function LpMonitor() {
   return (
-    <div className="lpm-main-container m-0">
-      <spline-viewer url="https://prod.spline.design/fhssD-863C9KnEe9/scene.splinecode"></spline-viewer>
-      <div className="text-overlay">
+    <div className="lpm-main-container ">
+      <div className="lpm-text-container">
         <h1 className="play lpp-hero-text purple-font f4">
           <span className="yellow-font">C</span>osmos{" "}
           <span className="purple-font">C</span>reations
@@ -13,6 +12,9 @@ export function LpMonitor() {
             Welcome to Stella's World of 3D Wonder
           </span>
         </p>
+      </div>
+      <div className="lpm-spline-container">
+        <spline-viewer url="https://prod.spline.design/fhssD-863C9KnEe9/scene.splinecode"></spline-viewer>
       </div>
     </div>
   );
