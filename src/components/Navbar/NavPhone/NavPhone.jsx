@@ -97,7 +97,7 @@ export function NavPhone() {
             return (
               <div key={link.linkName}>
                 <h3
-                  className="dropdown-link-name f1-5"
+                  className="dropdown-link-name mont f1-5"
                   onClick={() => handleNavigate(link.link)}
                 >
                   {link.linkName}
